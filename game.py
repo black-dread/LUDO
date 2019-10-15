@@ -296,7 +296,7 @@ class token:
 		y=self.position[1]
 		pygame.gfxdraw.filled_circle(screen,x+25,y+25,25,self.color)
 
-	def click_token(self ,die):
+'''            def click_token(self ,die):
 		mouse = pygame.mouse.get_pos()
 		click = pygame.mouse.get_pressed()
 		x = self.position[0]
@@ -316,7 +316,7 @@ class token:
 			return True
 
 
-
+'''
 	def place_token(self):
 		X=self.what_is_there()
 		if X[0]:
